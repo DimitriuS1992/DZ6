@@ -127,7 +127,7 @@ span {
     font-size: 120%;
 }
 
-:target {
+.allarticle:target {
     width: 600px;
     height: 160px;
     background-color: azure;
