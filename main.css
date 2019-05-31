@@ -23,7 +23,7 @@ main {
     margin-top: 5px;
 }
 
-.first-block {
+.main-links {
     border: solid darkgrey;
     border-radius: 10px;
     background-color: darkgrey;
@@ -107,7 +107,7 @@ main {
     display: block;
 }
 
-.lamp {
+.h-img {
     width: 25px;
     height: 25px;
 }
@@ -128,12 +128,13 @@ span {
 }
 
 .allarticle:target {
-    width: 600px;
-    height: 160px;
+    width: 1000px;
+    height: 150px;
     background-color: azure;
+    padding: 10px; 
 }
 
-.buttom {
+.button-up {
     margin-top: 10px;
     margin-left: 1400px;
     text-align: right;
@@ -146,7 +147,7 @@ span {
     text-decoration: none;
 }
 
-.footer {
+footer {
     border: 1px solid grey;
     width: auto;
     height: 120px;
@@ -163,7 +164,7 @@ span {
     margin-left: 15px;
 }
 
-address.address1 {
+address {
     margin-top: 5px;
     margin-bottom: 30px;
     font-size: small;
