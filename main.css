@@ -1,17 +1,17 @@
+
 html {
     background-color: azure;
 }
 
-header h2 {
-    margin-left: 850px;
+header{
+    display: block;
+    text-align: center;
 }
 
-header p {
-    margin-left: 700px;
-}
-
-header ul {
-    margin-left: 820px;
+.topnav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 main {
@@ -150,11 +150,13 @@ span {
 footer {
     border: 1px solid grey;
     width: auto;
-    height: 120px;
     background-color: darkgray;
     border: none;
     font-style: italic;
-    padding-top: 20px line-height: 1px;
+    padding-top: 20px;
+    line-height: 1px;
+    position: sticky;
+    bottom: -1px;
 
 }
 
